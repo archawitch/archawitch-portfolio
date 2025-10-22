@@ -7,20 +7,14 @@ import Contact from '../components/Contact.vue'
   <main id="about">
     <h1>I'm Archawit Changtor</h1>
     <p>
-      Hi there! I'm a fourth year student living in Pathumthani, Thailand, currently studying
-      Computer Engineering at
-      <a class="link" href="https://www.siit.tu.ac.th" target="_blank"
-        >Sirindhorn International Institute of Technology (SIIT)</a
-      >
-      with a major in Cloud Computing and Cyber Security.
+      Hi there! I'm a programmer living in Pathum Thani, Thailand. My interests lie in web
+      development, mobile app development, and cyber security.
       <br />
       <br />
-      My interests lie in web development, mobile app development, UI design, and cyber security.
-      I'm actively developing a plenty of projects to build strong foundations and solve my daily
-      problems.
+      I'm still thinking about what to do ᯓᯓ
       <br />
       <br />
-      For more information about my personal projects, feel free to check them out at
+      For more information about my personal projects, feel free to check those out at
       <router-link class="link" to="projects">Projects</router-link>.
     </p>
   </main>

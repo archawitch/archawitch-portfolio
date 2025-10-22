@@ -8,15 +8,9 @@ const route = useRoute()
 const projectData = ref({ name: '', coverType: '', covers: '', description: '' })
 
 const getDetails = (projectName) => {
-  const result = data['projects'].filter(
+  projectData.value = data['projects'].find(
     (project) => project['route'].toLowerCase() === projectName.toLowerCase()
   )
-
-  if (result && result.length > 0) {
-    projectData.value = {
-      ...result[0]
-    }
-  }
 }
 
 onMounted(() => {
